@@ -97,6 +97,12 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.pinyougou.pojo.TbSpecification" >
+    <selectKey resultType="java.lang.Long" order="AFTER" keyProperty="id">
+      SELECT LAST_INSERT_ID() AS id
+
+    </selectKey>
+
+
     insert into tb_specification (id, spec_name)
     values (#{id,jdbcType=BIGINT}, #{specName,jdbcType=VARCHAR})
   </insert>
@@ -161,4 +167,8 @@
     set spec_name = #{specName,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
+  <select id="selectOptionList" resultType="java.util.Map">
+    SELECT id,spec_name as text FROM tb_specification
+  </select>
+
 </mapper>
