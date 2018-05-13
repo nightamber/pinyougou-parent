@@ -15,6 +15,12 @@
 	<script src="../plugins/angularjs/pagination.js"></script>
 	<link rel="stylesheet" href="../plugins/angularjs/pagination.css">
 
+	<script type="text/javascript" src="../js/base_pagination.js"></script>
+	<script type="text/javascript" src="../js/service/brandService.js"></script>
+	<script type="text/javascript" src="../js/controller/baseController.js"></script>
+	<script type="text/javascript" src="../js/controller/brandContrloler.js"></script>
+
+
     
 </head>
 <body class="hold-transition skin-red sidebar-mini" ng-app="pinyougou" ng-controller="brandController" >
@@ -124,112 +130,11 @@
 </html>
 
 <script type="text/javascript">
-	var app = angular.module('pinyougou',['pagination']);
-
-	app.controller('brandController',function ($scope, $http,brandService) {
-
-	    $scope.findAll = function () {
-
-	       brandService.findAll().success(
-	            function (response) {
-					$scope.list=response;
-                }
-			);
-
-        }
-
-        $scope.reloadList=function(){
-	       $scope.search($scope.paginationConf.currentPage,
-		   $scope.paginationConf.itemsPerPage);
-		}
-
-        $scope.paginationConf={
-	        currentPage: 1,
-			totalItems: 10,
-			itemsPerPage: 10,
-			perPageOptions: [10,20,30,40,50],
-			onChange: function () {
-				$scope.reloadList();
-            }
-		}
-
-		$scope.findPage=function (page,size) {
-			$http.get('../brand/findPage.do?page='+page+'&size='+size).success(function (response) {
-				$scope.list=response.rows;
-				$scope.paginationConf.totalItems=response.total;
-            });
-        }
-
-        $scope.save=function () {
-			var methodName = "add";
-
-			if($scope.entity.id != null){
-			    methodName='update';
-			}
-
-	        $http.post('../brand/'+methodName+'.do',$scope.entity).success(
-			    function (response) {
-					if(response.success){
-					    $scope.reloadList();
-					}else {
-					    alert(response.message);
-					}
-                }
-			)
-        }
-
-        $scope.findOne=function (id) {
-			$http.get('../brand/findOne.do?id='+id).success(
-			    function (response) {
-					$scope.entity=response;
-                }
-			)
-        }
-
-        $scope.selectIds=[];
-	    $scope.updateSelection = function ($event,id) {
-			if($event.target.checked){
-			    $scope.selectIds.push(id);
-			}else {
-			    var idx = $scope.selectIds.indexOf(id);
-			    $scope.selectIds.splice(idx,1);
-			}
-        }
-
-        $scope.dele=function () {
-            if(confirm('确定要删除吗？')){
-                $http.get('../brand/delete.do?ids='+$scope.selectIds).success(
-                    function(response){
-                        if(response.success){
-                            $scope.reloadList();//刷新
-                        }else{
-                            alert(response.message);
-                        }
-                    }
-                );
-            }
-        }
-
-        $scope.searchEntity={};
-	    $scope.search=function (page,size) {
-			$http.post('../brand/search.do?page='+page+"&size="+size,
-			$scope.searchEntity)
-				.success(function (response) {
-				$scope.paginationConf.totalItems=response.total;
-				$scope.list=response.rows;
-            })
-        }
 
 
-    });
-	//品牌错误
-	app.service('brandService',function ($http) {
-		this.findAll=function () {
-            return $http.get('../brand/findAll.do')
-        }
-		this.findPage=function(){
-            return $http.get('../brand/findPage.do?page='+page+'&size='+size);
-		}
 
-    });
+
+
+
+
 </script>
