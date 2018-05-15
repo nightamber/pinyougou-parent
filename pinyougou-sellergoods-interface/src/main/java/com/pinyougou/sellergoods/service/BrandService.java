@@ -8,7 +8,7 @@ import entity.PageResult;
 
 /**
  * 品牌接口
- * @author Mao Yiding
+ * @author mrbear
  *
  */
 public interface BrandService {
