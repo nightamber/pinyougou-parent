@@ -1,5 +1,5 @@
  //控制层 
-app.controller('goodsController' ,function($scope,$controller   ,goodsService,uploadService){
+app.controller('goodsController' ,function($scope,$controller   ,goodsService){	
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -75,48 +75,5 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService,up
 			}			
 		);
 	}
-
-	//添加
-    $scope.add=function(){
-		$scope.entity.goodsDesc.introduction=editor.html();
-
-
-        goodsService.add($scope.entity).success(
-            function(response){
-                if(response.success){
-                    alert("新增成功");
-                    $scope.entity={};
-                    editor.html("");//清空编辑器
-                }else{
-                    alert(response.message);
-                }
-            }
-        );
-    }
-
-    //上传图片
-    $scope.uploadFile=function () {
-		uploadService.uploadFile().success(
-			function (response) {
-				if(response.success){
-					$scope.image_entity.url=response.message;
-				}else {
-					alert(response.message);
-				}
-            }
-	)
-    }
-
-
-    $scope.entity={goods:{},goodsDesc:{itemImages:[]}};
-
-	//将当前上传的图片实体存入图片列表
-    $scope.add_image_entity=function () {
-		$scope.entity.goodsDesc.itemImages.push($scope.image_entity);
-    }
-
-
-    $scope.remove_image_entity=function(index){
-    	$scope.entity.goodsDesc.itemImages.splice(index,1);
-	}
+    
 });	

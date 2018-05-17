@@ -6,4 +6,14 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>pinyougou-common</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.csource.fastdfs</groupId>
+      <artifactId>fastdfs</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+    </dependency>
+  </dependencies>
 </project>
