@@ -1,5 +1,5 @@
 # pinyougou-parent
-SSM+ZOOKEEPER+DUBBO 商城项目练习
+SSM+ZOOKEEPER+DUBBO+angularjs 商城项目练习
 
 ## 完成的功能目标
 
