@@ -89,6 +89,7 @@
 	  </dependency>
 
 
+
 	<dependency>
 		<groupId>com.pinyougou</groupId>
 		<artifactId>pinyougou-sellergoods-interface</artifactId>
