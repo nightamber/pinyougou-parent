@@ -55,19 +55,19 @@ C2B 模式和我们熟知的供需模式（DSM, Demand Supply Model）恰恰相�
 
 
 
-![52690213805](H:\itheima大数据项目班\项目班\0510\image\1526902138058.png)
+![52690213805](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526902138058.png)
 
 #### 运营商后台
 
 是运营商的运营人员的管理后台。 主要包括商家审核、品牌管理、规格管理、模板管理、商品分类管理、商品审核、广告类型管理、广告管理、订单查询、商家结算等。
 
-![52690217194](H:\itheima大数据项目班\项目班\0510\image\1526902171944.png)
+![52690217194](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526902171944.png)
 
 #### 商家管理后台
 
 入驻的商家进行管理的后台，主要功能是对商品的管理以及订单查询统计、资金结算等功能。
 
-![52690220779](H:\itheima大数据项目班\项目班\0510\image\1526902207798.png)
+![52690220779](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526902207798.png)
 
 
 
@@ -81,7 +81,7 @@ SOA 是 Service-Oriented Architecture 的首字母简称，它是一种支持面
 
 #### 品优购架构分析
 
-![52690240851](H:\itheima大数据项目班\项目班\0510\image\1526902408515.png)
+![52690240851](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526902408515.png)
 
 
 
@@ -120,7 +120,7 @@ Dubbox 致力于提供高性能和透明化的 RPC 远程服务调用方案，�
 
 
 
-![52690309475](H:\itheima大数据项目班\项目班\0510\image\1526903094754.png)
+![52690309475](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526903094754.png)
 
 
 
@@ -251,7 +251,7 @@ dubbo.registry.address=zookeeper://127.0.0.1:2181
 
 （1）打开浏览器，输入 http://192.168.25.132:8080/dubbo-admin/ ,登录用户名和密码均为root 进入首页。 (192.168.25.132:)是我部署的 linux 主机地址。
 
-![52690430484](H:\itheima大数据项目班\项目班\0510\image\1526904304848.png)
+![52690430484](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526904304848.png)
 
 
 
@@ -259,19 +259,19 @@ dubbo.registry.address=zookeeper://127.0.0.1:2181
 
 （2）启动服务提供者工程，即可在服务治理-提供者查看到该服务
 
-![52690432811](H:\itheima大数据项目班\项目班\0510\image\1526904328118.png)
+![52690432811](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526904328118.png)
 
 点击其中一条数据后可以查看详情。
 
 
 
-![52690435451](H:\itheima大数据项目班\项目班\0510\image\1526904354512.png)
+![52690435451](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526904354512.png)
 
 
 
 （3）启动服务消费者工程，运行页面，观察“消费者”列表
 
-![52690437836](H:\itheima大数据项目班\项目班\0510\image\1526904378367.png)
+![52690437836](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526904378367.png)
 
 
 
@@ -281,7 +281,7 @@ dubbo.registry.address=zookeeper://127.0.0.1:2181
 
 最终完整的工程结构如下：
 
-![52690459434](H:\itheima大数据项目班\项目班\0510\image\1526904594341.png)
+![52690459434](https://github.com/nightamber/pinyougou-parent/blob/master/note/0510/image/1526904594341.png)
 
 
 
