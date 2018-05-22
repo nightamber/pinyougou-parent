@@ -335,7 +335,7 @@ public void testDeleteAll(){
 
 （2）创建 spring 配置文件
 
-![52695840729](H:\itheima大数据项目班\项目班\0522\images\1526958407297.png)
+![](https://github.com/nightamber/pinyougou-parent/blob/master/note/0522/images/1526958407297.png)
 
 
 
@@ -488,7 +488,7 @@ public void importItemData(){
 
 打开搜索页面，在搜索框输入要搜索的关键字，点击搜索按钮即可进行搜索，展示搜索结果仿照京东，当用户输入空格时，使用已输入默认条件，刷新页面
 
-![52697639285](H:\itheima大数据项目班\项目班\0522\images\1526976392851.png)
+![](https://github.com/nightamber/pinyougou-parent/blob/master/note/0522/images/1526976392851.png)
 
 ###   后端代码
 
@@ -565,7 +565,7 @@ public class ItemSearchController {
 
 将下列资源拷贝至 pinyougou-search-web
 
-![52697671670](H:\itheima大数据项目班\项目班\0522\images\1526976716702.png)
+![](https://github.com/nightamber/pinyougou-parent/blob/master/note/0522/images/1526976716702.png)
 
 
 
