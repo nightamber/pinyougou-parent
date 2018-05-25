@@ -36,6 +36,7 @@ public class TbItem implements Serializable{
 
     private Date createTime;
 
+    @Field("item_updatetime")
     private Date updateTime;
 
     private String itemSn;
@@ -63,10 +64,15 @@ public class TbItem implements Serializable{
 
     @Field("item_seller")
     private String seller;
+
+
     
     @Dynamic
     @Field("item_spec_*")
     private Map<String,String> specMap;
+
+
+
     
     public Map<String, String> getSpecMap() {
 		return specMap;
