@@ -5,6 +5,7 @@
       <configuration>
         <fileset id="fileset" name="ApplicationContext Tx" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-tx.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring/applicationContext-service.xml</file>
         </fileset>
       </configuration>
     </facet>
