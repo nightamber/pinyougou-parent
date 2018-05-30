@@ -11,6 +11,7 @@ import javax.jms.ObjectMessage;
 
 @Component
 public class PageDeleteListener implements MessageListener {
+
     @Autowired
     private ItemPageService itemPageService;
 
@@ -18,13 +19,12 @@ public class PageDeleteListener implements MessageListener {
     public void onMessage(Message message) {
         ObjectMessage objectMessage = (ObjectMessage) message;
         try {
-            Long[] goodsId= (Long[]) objectMessage.getObject();
-            System.out.println("接受到消息："+goodsId);
+            Long[] goodsId = (Long[]) objectMessage.getObject();
+            System.out.println("接受到消息：" + goodsId);
             itemPageService.deleteItemHtml(goodsId);
         } catch (JMSException e) {
             e.printStackTrace();
         }
-
 
 
     }
