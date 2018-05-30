@@ -16,7 +16,7 @@
 
 将用户输入的关键字在标题中以红色的字体显示出来，就是搜索中常用的高亮显示.
 
-![52703754050](H:\itheima大数据项目班\项目班\0523\images\1527037540501.png)
+![52703754050](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0523/images/1527037540501.png)
 
 ### 后端代码
 
@@ -102,7 +102,7 @@ app.filter('trustHtml',['$sce',function($sce){
 
 我们今天要完成的目标是在关键字搜索的基础上添加面板搜索功能。面板上有商品分类、品牌、各种规格和价格区间等条件
 
-![52703858359](H:\itheima大数据项目班\项目班\0523\images\1527038583597.png)
+![52703858359](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0523/images/1527038583597.png)
 
 业务规则：
 
@@ -128,7 +128,7 @@ app.filter('trustHtml',['$sce',function($sce){
 
 根据搜索关键字查询商品分类名称列表
 
-![52703919687](H:\itheima大数据项目班\项目班\0523\images\1527039196874.png)
+![52703919687](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0523/images/1527039196874.png)
 
 ###   后端代码
 
@@ -280,7 +280,7 @@ public PageResult findPage(TbTypeTemplate typeTemplate, int pageNum, int pageSiz
 
 在搜索面板区域显示第一个分类的品牌和规格列表
 
-![52703961378](H:\itheima大数据项目班\项目班\0523\images\1527039613783.png)
+![52703961378](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0523/images/1527039613783.png)
 
 
 
@@ -524,7 +524,7 @@ $scope.removeSearchItem=function(key){
 
 根据上一步构建的查询条件，实现分类、品牌和规格的过滤查询
 
-![52706408726](H:\itheima大数据项目班\项目班\0523\images\1527064087266.png)
+![52706408726](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0523/images/1527064087266.png)
 
 ### 代码实现
 
