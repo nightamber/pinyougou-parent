@@ -56,7 +56,7 @@ Spring Boot 具有如下特性：
 
 我们会惊奇地发现，我们的工程自动添加了好多好多 jar 包
 
-![52755314309](H:\itheima大数据项目班\项目班\0529\images\1527553143091.png)
+![52755314309](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527553143091.png)
 
 
 
@@ -239,7 +239,7 @@ spring.activemq.broker-url=tcp://192.168.25.135:61616
 
 运行后，会在 activeMQ 中看到发送的 queue
 
-![52755377923](H:\itheima大数据项目班\项目班\0529\images\1527553779238.png)
+![52755377923](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527553779238.png)
 
 #### 发送 Map 信息
 
@@ -276,23 +276,23 @@ public void readMap(Map map){
 
 首先我们先进入“阿里大于” www.alidayu.com （https://dayu.aliyun.com/）
 
-![52755394274](H:\itheima大数据项目班\项目班\0529\images\1527553942740.png)
+![52755394274](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527553942740.png)
 
-![52755397965](H:\itheima大数据项目班\项目班\0529\images\1527553979654.png)
+![52755397965](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527553979654.png)
 
 ####  登陆系统
 
 使用刚才注册的账号进行登陆。
 
-![52755402069](H:\itheima大数据项目班\项目班\0529\images\1527554020699.png)
+![52755402069](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554020699.png)
 
 
 
-![52755404226](H:\itheima大数据项目班\项目班\0529\images\1527554042260.png)
+![52755404226](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554042260.png)
 
 
 
-![52755405178](H:\itheima大数据项目班\项目班\0529\images\1527554051786.png)
+![52755405178](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554051786.png)
 
 
 
@@ -300,7 +300,7 @@ public void readMap(Map map){
 
 
 
-![52755406449](H:\itheima大数据项目班\项目班\0529\images\1527554064490.png)
+![52755406449](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554064490.png)
 
 
 
@@ -308,37 +308,37 @@ public void readMap(Map map){
 
 
 
-![52755408170](H:\itheima大数据项目班\项目班\0529\images\1527554081705.png)
+![52755408170](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554081705.png)
 
-![52755408996](H:\itheima大数据项目班\项目班\0529\images\1527554089963.png)
+![52755408996](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554089963.png)
 
-![52755413000](H:\itheima大数据项目班\项目班\0529\images\1527554130007.png)
+![52755413000](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554130007.png)
 
 #### 申请模板
 
-![52755415469](H:\itheima大数据项目班\项目班\0529\images\1527554154691.png)
+![52755415469](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554154691.png)
 
-![52755416478](H:\itheima大数据项目班\项目班\0529\images\1527554164782.png)
+![52755416478](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554164782.png)
 
 #### 创建 accessKey
 
 
 
-![52755418265](H:\itheima大数据项目班\项目班\0529\images\1527554182655.png)
+![52755418265](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554182655.png)
 
 
 
-![52755419170](H:\itheima大数据项目班\项目班\0529\images\1527554191708.png)
+![52755419170](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554191708.png)
 
 
 
-![52755419966](H:\itheima大数据项目班\项目班\0529\images\1527554199664.png)
+![52755419966](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554199664.png)
 
-![52755420964](H:\itheima大数据项目班\项目班\0529\images\1527554209640.png)
+![52755420964](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554209640.png)
 
-![52755421694](H:\itheima大数据项目班\项目班\0529\images\1527554216943.png)
+![52755421694](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554216943.png)
 
-![52755422688](H:\itheima大数据项目班\项目班\0529\images\1527554226889.png)
+![52755422688](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554226889.png)
 
 
 
@@ -346,13 +346,13 @@ public void readMap(Map map){
 
 从阿里云通信官网上下载 Demo 工程
 
-![52755424713](H:\itheima大数据项目班\项目班\0529\images\1527554247134.png)
+![52755424713](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554247134.png)
 
 
 
 解压后导入 
 
-![52755426257](H:\itheima大数据项目班\项目班\0529\images\1527554262575.png)
+![52755426257](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554262575.png)
 
 红线框起来的两个工程就是阿里云通信的依赖 jar 源码，我们将其安装到本地仓库（删除 aliyun-java-sdk-core 的单元测试类）本地 jar 包安装后alicom-dysms-api 工程引入依赖
 
@@ -373,7 +373,7 @@ public void readMap(Map map){
 
 红叉消失了 :-)
 
-![52755433955](H:\itheima大数据项目班\项目班\0529\images\1527554339555.png)
+![52755433955](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554339555.png)
 
 #### 发送短信测试
 
@@ -381,16 +381,16 @@ public void readMap(Map map){
 
 替换下列几处代码
 
-![52755437386](H:\itheima大数据项目班\项目班\0529\images\1527554373860.png)
+![52755437386](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554373860.png)
 
 这个 accessKeyId 和 accessSecret 到刚才申请过的
 手机号，短信签名和模板号
 
-![52755439669](H:\itheima大数据项目班\项目班\0529\images\1527554396692.png)
+![52755439669](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554396692.png)
 
 模板参数
 
-![52755441046](H:\itheima大数据项目班\项目班\0529\images\1527554410463.png)
+![52755441046](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527554410463.png)
 
 number 是我们申请模板时写的参数
 执行 main 方法我们就可以在手机收到短信啦
@@ -604,7 +604,7 @@ jmsMessagingTemplate.convertAndSend("sms",map);
 地址栏输入：http://localhost:8088/sendsms.do
 观察控制台输出
 
-![52755585401](H:\itheima大数据项目班\项目班\0529\images\1527555854014.png)
+![52755585401](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527555854014.png)
 
 
 
@@ -616,7 +616,7 @@ jmsMessagingTemplate.convertAndSend("sms",map);
 
 完成用户注册功能
 
-![52755590361](H:\itheima大数据项目班\项目班\0529\images\1527555903610.png)
+![52755590361](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527555903610.png)
 
 ### 工程搭建
 
@@ -651,17 +651,17 @@ jmsMessagingTemplate.convertAndSend("sms",map);
 
 ####  生成和拷贝代码
 
-![52755601643](H:\itheima大数据项目班\项目班\0529\images\1527556016436.png)
+![52755601643](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527556016436.png)
 
 
 
-![52755603509](H:\itheima大数据项目班\项目班\0529\images\1527556035092.png)
+![52755603509](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527556035092.png)
 
 
 
-![52755604320](H:\itheima大数据项目班\项目班\0529\images\1527556043207.png)
+![52755604320](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527556043207.png)
 
-![52755607702](H:\itheima大数据项目班\项目班\0529\images\1527556077021.png)
+![52755607702](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0529/images/1527556077021.png)
 
 
 
