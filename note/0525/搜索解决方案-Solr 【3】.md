@@ -16,7 +16,7 @@
 
 点击搜索面板上的价格区间，实现按价格筛选
 
-![52721013989](H:\itheima大数据项目班\项目班\0525\images\1527210139891.png)
+![52721013989](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0525/images/1527210139891.png)
 
 ### 前端代码
 
@@ -127,7 +127,7 @@ query.addFilterQuery(filterQuery);
 
 在上述功能基础上实现分页查询
 
-![52721046098](H:\itheima大数据项目班\项目班\0525\images\1527210460987.png)
+![52721046098](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0525/images/1527210460987.png)
 
 
 
@@ -438,7 +438,7 @@ public Map<String, Object> search(Map searchMap) {
 
 实现价格的排序（升降序可切换）
 
-![52721313369](H:\itheima大数据项目班\项目班\0525\images\1527213133699.png)
+![52721313369](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0525/images/1527213133699.png)
 
 #### 后端代码
 
@@ -519,7 +519,7 @@ $scope.sortSearch=function(sortField,sort){
 
 ### 按上架时间排序
 
-![52721328602](H:\itheima大数据项目班\项目班\0525\images\1527213286028.png)
+![52721328602](https://github.com/nightamber/pinyougou-parent/blob/addMQ/note/0525/images/1527213286028.png)
 
 
 
