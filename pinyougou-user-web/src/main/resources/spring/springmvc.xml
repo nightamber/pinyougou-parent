@@ -28,6 +28,6 @@
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="pinyougou-user-web" />
 	<dubbo:registry address="zookeeper://localhost:2181"/>
-	<dubbo:annotation package="com.pinyougou.user.controller" />
+	<dubbo:annotation package="com.pinyougou.cart.controller" />
 
 </beans>
