@@ -92,6 +92,12 @@
           <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
           <element id="library" level="project" name="Maven: xalan:xalan:2.7.1" />
           <element id="library" level="project" name="Maven: xalan:serializer:2.7.1" />
+          <element id="archive" name="pinyougou-user-interface-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="pinyougou-user-interface" />
+          </element>
+          <element id="archive" name="pinyougou-order-interface-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="pinyougou-order-interface" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">

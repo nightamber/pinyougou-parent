@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import util.CookieUtil;
@@ -29,6 +30,7 @@ public class CartController {
     @RequestMapping("/findCartList")
     public List<Cart> findCartList() {
 
+
         //得到登陆人账号,判断当前是否有人登陆
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
         System.out.println("获取当前登录人" + username);
@@ -40,8 +42,6 @@ public class CartController {
         List<Cart> cartList_cookie = JSON.parseArray(carListString, Cart.class);
 
         if (username.equals("anonymousUser")) {//如果没用登录
-
-
             return cartList_cookie;
         } else {//登录
             List<Cart> cartList_redis = cartService.findCartListFromRedis(username);
@@ -61,7 +61,11 @@ public class CartController {
 
 
     @RequestMapping("/addGoodsToCartList")
+    @CrossOrigin(origins="http://localhost:9105",allowCredentials="true")
     public Result addGoodsToCartList(Long itemId, Integer num) {
+//        response.setHeader("Access-Control-Allow-Origin", "http://localhost:9105");
+//        response.setHeader("Access-Control-Allow-Credentials", "true");
+
         //得到登陆人账号,判断当前是否有人登陆
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
         try {
