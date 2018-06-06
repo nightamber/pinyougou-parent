@@ -10,7 +10,6 @@ import java.util.Map;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import util.IdWorker;
 
 @RestController
 @RequestMapping("/pay")

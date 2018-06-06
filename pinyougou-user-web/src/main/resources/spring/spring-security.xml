@@ -67,7 +67,7 @@
         <beans:property name="key" value="an_id_for_this_auth_provider_only"/>
     </beans:bean>
     <!-- 认证类 -->
-    <beans:bean id="userDetailsService" class="com.pinyougou.cart.service.UserDetailServiceImpl"/>
+    <beans:bean id="userDetailsService" class="com.pinyougou.user.service.UserDetailServiceImpl"/>
 
     <!-- 认证过滤器 结束 -->
 

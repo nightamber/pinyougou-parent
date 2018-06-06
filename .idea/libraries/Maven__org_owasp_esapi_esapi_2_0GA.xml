@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.owasp.esapi:esapi:2.0GA">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/owasp/esapi/esapi/2.0GA/esapi-2.0GA.jar!/" />
+      <root url="jar://E:/Maven/apache-maven-3.5.2/repository_pinyougou_02/org/owasp/esapi/esapi/2.0GA/esapi-2.0GA.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/owasp/esapi/esapi/2.0GA/esapi-2.0GA-javadoc.jar!/" />
+      <root url="jar://E:/Maven/apache-maven-3.5.2/repository_pinyougou_02/org/owasp/esapi/esapi/2.0GA/esapi-2.0GA-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/owasp/esapi/esapi/2.0GA/esapi-2.0GA-sources.jar!/" />
+      <root url="jar://E:/Maven/apache-maven-3.5.2/repository_pinyougou_02/org/owasp/esapi/esapi/2.0GA/esapi-2.0GA-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

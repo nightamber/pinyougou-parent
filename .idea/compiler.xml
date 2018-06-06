@@ -26,6 +26,9 @@
         <module name="pinyougou-search-interface" />
         <module name="pinyougou-search-service" />
         <module name="pinyougou-search-web" />
+        <module name="pinyougou-seckill-interface" />
+        <module name="pinyougou-seckill-service" />
+        <module name="pinyougou-seckill-web" />
         <module name="pinyougou-sellergoods-interface" />
         <module name="pinyougou-sellergoods-service" />
         <module name="pinyougou-shop-web" />
@@ -57,6 +60,9 @@
       <module name="pinyougou-search-interface" target="1.7" />
       <module name="pinyougou-search-service" target="1.7" />
       <module name="pinyougou-search-web" target="1.7" />
+      <module name="pinyougou-seckill-interface" target="1.7" />
+      <module name="pinyougou-seckill-service" target="1.7" />
+      <module name="pinyougou-seckill-web" target="1.7" />
       <module name="pinyougou-sellergoods-interface" target="1.7" />
       <module name="pinyougou-sellergoods-service" target="1.7" />
       <module name="pinyougou-shop-web" target="1.7" />

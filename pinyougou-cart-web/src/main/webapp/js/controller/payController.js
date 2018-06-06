@@ -13,7 +13,7 @@ app.controller('payController',function ($scope,$location,payService) {
                     level:'H',
                     value:response.code_url
                 });
-                queryPayStatus();//查询支付状态
+               // queryPayStatus();//查询支付状态
             }
         )
     }
