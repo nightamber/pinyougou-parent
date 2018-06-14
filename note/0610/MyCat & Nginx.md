@@ -24,11 +24,11 @@ Mycat 是基于 cobar 演变而来，对 cobar 的代码进行了彻底的重构
 
 简单的说，MyCAT 就是：一个新颖的数据库中间件产品支持 mysql 集群，或者mariadb cluster，提供高可用性数据分片集群。你可以像使用 mysql 一样使用 mycat。对于开发人员来说根本感觉不到 mycat 的存在
 
-![52859299077](H:\itheima大数据项目班\项目班\0610\images\1528592990775.png)
+![52859299077](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528592990775.png)
 
 MyCat  支持的数据库
 
-![52859300880](H:\itheima大数据项目班\项目班\0610\images\1528593008806.png)
+![52859300880](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528593008806.png)
 
 ### MyCat  下载及安装
 
@@ -40,7 +40,7 @@ MySQL  安装与启动步骤如下：(  步骤 1-5  省略 )
 
 （1）将 MySQL 的服务端和客户端安装包（RPM）上传到服务器
 
-![52859305978](H:\itheima大数据项目班\项目班\0610\images\1528593059787.png)
+![52859305978](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528593059787.png)
 
 （2）查询之前是否安装过 MySQL
 
@@ -130,19 +130,19 @@ Mycat 的默认端口号为：8066
 数据的切分（Sharding）根据其切分规则的类型，可以分为两种切分模式。
 （1）一种是按照不同的表（或者 Schema）来切分到不同的数据库（主机）之上，这种切分可以称之为数据的垂直（纵向）切分
 
-![52859336765](H:\itheima大数据项目班\项目班\0610\images\1528593367654.png)
+![52859336765](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528593367654.png)
 
 
 
 （2）另外一种则是根据表中的数据的逻辑关系，将同一个表中的数据按照某种条件拆分到多台数据库（主机）上面，这种切分称之为数据的水平（横向）切分。
 
-![52859338295](H:\itheima大数据项目班\项目班\0610\images\1528593382953.png)
+![52859338295](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528593382953.png)
 
 
 
 MyCat  分片策略
 
-![52859340430](H:\itheima大数据项目班\项目班\0610\images\1528593404307.png)
+![52859340430](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528593404307.png)
 
 #### 分片相关的概念
 
@@ -244,7 +244,7 @@ PRIMARY KEY (id)
 
 创建后你会发现，MyCat 会自动将你的表转换为大写，这一点与 Oracle 有些类似。
 
-![52859375133](H:\itheima大数据项目班\项目班\0610\images\1528593751333.png)
+![52859375133](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528593751333.png)
 
 我们再查看 MySQL 的 3 个库，发现表都自动创建好啦。好神奇。
 
@@ -369,9 +369,9 @@ class="org.opencloudb.route.function.PartitionByMurmurHash">
 
 数据库读写分离对于大型系统或者访问量很高的互联网应用来说，是必不可少的一个重要功能。对于 MySQL 来说，标准的读写分离是主从模式，一个写节点 Master 后面跟着多个读节点，读节点的数量取决于系统的压力，通常是 1-3 个读节点的配置
 
-![52859409802](H:\itheima大数据项目班\项目班\0610\images\1528594098027.png)
+![52859409802](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594098027.png)
 
-![52859411233](H:\itheima大数据项目班\项目班\0610\images\1528594112335.png)
+![52859411233](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594112335.png)
 
 Mycat 读写分离和自动切换机制，需要 mysql 的主从复制机制配合。
 
@@ -382,7 +382,7 @@ Mycat 读写分离和自动切换机制，需要 mysql 的主从复制机制配�
 
 Nginx 是一款高性能的 http 服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器。由俄罗斯的程序设计师伊戈尔·西索夫（Igor Sysoev）所开发，官方测试 nginx 能够支支撑 5 万并发链接，并且 cpu、内存等资源消耗却非常低，运行非常稳定。
 
-![52859416782](H:\itheima大数据项目班\项目班\0610\images\1528594167826.png)
+![52859416782](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594167826.png)
 
 
 
@@ -464,7 +464,7 @@ tar zxvf nginx-1.8.0.tar.gz
 
 执行后可以看到 Makefile 文件
 
-![52859441114](H:\itheima大数据项目班\项目班\0610\images\1528594411140.png)
+![52859441114](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594411140.png)
 
 
 
@@ -542,11 +542,11 @@ cd /usr/local/ngiux/sbin
 ps aux|grep nginx
 ```
 
-![52859458642](H:\itheima大数据项目班\项目班\0610\images\1528594586426.png)
+![52859458642](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594586426.png)
 
 地址栏输入虚拟机的 IP 即可访问（默认为 80 端口）
 
-![52859460442](H:\itheima大数据项目班\项目班\0610\images\1528594604420.png)
+![52859460442](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594604420.png)
 
 
 
@@ -578,7 +578,7 @@ ps aux|grep nginx
 
 将我们之前生成的静态页（d:\item）上传到服务器的/usr/local/nginx/html 下即可访问
 
-![52859468008](H:\itheima大数据项目班\项目班\0610\images\1528594680080.png)
+![52859468008](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594680080.png)
 
 
 
@@ -651,9 +651,9 @@ index search.html;
 
 新增方案：
 
-![52859496878](H:\itheima大数据项目班\项目班\0610\images\1528594968786.png)
+![52859496878](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594968786.png)
 
-![52859497802](H:\itheima大数据项目班\项目班\0610\images\1528594978025.png)
+![52859497802](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528594978025.png)
 
 指定绑定规则 IP 域名 然后确定。
 
@@ -685,11 +685,11 @@ index search.html;
 
 
 
-![52859504592](H:\itheima大数据项目班\项目班\0610\images\1528595045925.png)
+![52859504592](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595045925.png)
 
 地址栏输入 http://search.pinyougou.com/
 
-![52859506221](H:\itheima大数据项目班\项目班\0610\images\1528595062218.png)
+![52859506221](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595062218.png)
 
 
 
@@ -703,15 +703,15 @@ index search.html;
 
 首先我们先理解正向代理，如下图
 
-![52859511374](H:\itheima大数据项目班\项目班\0610\images\1528595113741.png)
+![52859511374](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595113741.png)
 
 正向代理是针对你的客户端，而反向代理是针对服务器的，如下图
 
-![52859512920](H:\itheima大数据项目班\项目班\0610\images\1528595129202.png)
+![52859512920](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595129202.png)
 
 
 
-![52859514002](H:\itheima大数据项目班\项目班\0610\images\1528595140024.png)
+![52859514002](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595140024.png)
 
 
 
@@ -824,12 +824,12 @@ keepalived 主要有三个模块，分别是 core、check 和 VRRP。core 模块
 
 初始状态：
 
-![52859540741](H:\itheima大数据项目班\项目班\0610\images\1528595407419.png)
+![52859540741](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595407419.png)
 
 主机宕机：
-![52859542272](H:\itheima大数据项目班\项目班\0610\images\1528595422722.png)主机恢复：
+![52859542272](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595422722.png)主机恢复：
 
-![52859543573](H:\itheima大数据项目班\项目班\0610\images\1528595435733.png)
+![52859543573](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595435733.png)
 
 ## 品优购部署方案3
 
@@ -837,7 +837,7 @@ keepalived 主要有三个模块，分别是 core、check 和 VRRP。core 模块
 
 
 
-![52859547609](H:\itheima大数据项目班\项目班\0610\images\1528595476092.png)
+![52859547609](https://github.com/nightamber/pinyougou-parent/blob/master/note/0610/images/1528595476092.png)
 
 
 
