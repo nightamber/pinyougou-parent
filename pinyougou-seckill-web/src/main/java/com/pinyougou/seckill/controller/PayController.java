@@ -33,8 +33,7 @@ public class PayController {
         }else{
             return new HashMap();
         }
-//        IdWorker idWorker = new IdWorker();
-//        return weixinPayService.createNative(idWorker.nextId()+"","1");
+
 
     }
     @RequestMapping("/queryPayStatus")
@@ -77,7 +76,6 @@ public class PayController {
                             Long.valueOf(out_trade_no), map.get("transaction_id"));
                     }
                 }
-
                 //删除订单
                 if(result.isSuccess()==false){
                     seckillOrderService.deleteOrderFromRedis(userId,Long.valueOf(out_trade_no));
